@@ -1,3 +1,7 @@
+import Hero1 from "@/public/Carousel/hero1.jpg";
+import Hero2 from "@/public/Carousel/hero2.jpg";
+import Hero3 from "@/public/Carousel/hero3.png";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -38,4 +42,28 @@ export const siteConfig = {
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
   },
+  carousel: [
+    {
+      src: Hero1,
+      alt: "MoodImage",
+      title: "In drei Schritten zum",
+      titleBold: "TraumRaum",
+      caption: "Mit Ihren Einrichtungsexperten aus Minden",
+    },
+    {
+      src: Hero2,
+      alt: "MoodImage2",
+      title: "Von der Planung zum fertigen",
+      titleBold: "Raum",
+      caption: "Lassen Sie sich jetzt von uns Beraten",
+    },
+    {
+      src: Hero3,
+      alt: "MoodImage3",
+      title: "Von der Planung zum fertigen",
+      titleBold: "Raum",
+      caption: "Lassen Sie sich jetzt von uns Beraten",
+    },
+  ],
+  services: [{}],
 };

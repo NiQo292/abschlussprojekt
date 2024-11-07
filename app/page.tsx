@@ -1,12 +1,10 @@
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+import React from "react";
 
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
-
+import Carousel from "@/components/Carousel/Carousel";
 export default function Home() {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <Carousel />
+    </div>
+  );
 }

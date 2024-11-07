@@ -27,6 +27,20 @@ module.exports = {
         72: "4.5rem",
         96: "6rem",
       },
+      colors: {
+        primary: "#f5f4ee", // Off-White
+        secondary: "#6c5f58", // Taupe
+        secondary10: "#f0efee", // Taupe10
+        secondary20: "#e2dfde", // Taupe20
+        secondary40: "#c4bfbc", // Taupe40
+        secondary60: "#44423F", // Taupe60
+        secondary80: "#897f79", // Taupe80
+        dark: "#393835", // Dark
+        dark2: "#5a4f4a", // Dark2
+        light: "#eae8e2", // Light Grey BG
+        red: "#f42434", // Hammer Red
+        darkred: "#c72632",
+      },
     },
   },
   darkMode: "class",
