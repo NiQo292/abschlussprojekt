@@ -3,7 +3,7 @@ import React from "react";
 
 const CarouselButton = () => {
   return (
-    <Link className="btn__filled" href="/">
+    <Link className="btn__filled text-primary dark:text-secondary" href="/">
       Termin vereinbaren
     </Link>
   );

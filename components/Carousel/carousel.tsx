@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useCallback } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -14,9 +14,17 @@ type PropType = {
 };
 
 const Carousel = ({ options }: PropType) => {
-  const [emblaRef] = useEmblaCarousel(options, [
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     Autoplay({ stopOnInteraction: true }),
   ]);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
 
   return (
     <section>
