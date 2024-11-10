@@ -10,7 +10,6 @@ import Naehen from "@/public/Services/Overview/naehen.svg";
 import Planen from "@/public/Services/Overview/planung.svg";
 import Streichen from "@/public/Services/Overview/streichen.svg";
 import Treppen from "@/public/Services/Overview/treppen.svg";
-import { title } from "process";
 
 export type SiteConfig = typeof siteConfig;
 
