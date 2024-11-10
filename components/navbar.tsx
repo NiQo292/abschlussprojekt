@@ -27,7 +27,7 @@ const Navigation = () => {
   return (
     // Navigationsleiste
     <Navbar
-      className="h-[100px] justify-evenly z-50 bg-background dark:bg-transparent"
+      className="h-[100px] justify-evenly z-50 bg-background dark:bg-transparent dark:text-primary"
       maxWidth="full"
       onMenuOpenChange={setIsMenuOpen}
     >
