@@ -17,10 +17,10 @@
 
 @layer utilities {
   .btn__filled {
-    @apply flex hover:bg-darkred rounded-full border-0 bg-red items-center justify-center text-16 font-normal normal-case text-primary dark:bg-primary dark:text-secondary lg:text-18 h-10 w-52;
+    @apply flex hover:bg-darkred rounded-full border-0 bg-red items-center justify-center text-16 font-normal normal-case text-primary dark:bg-primary dark:text-secondary lg:text-18 h-12 w-52 dark:hover:bg-secondary20;
   }
 
   .btn__outlined {
-    @apply flex h-10 w-52 rounded-full border-2 border-red bg-primary items-center justify-center text-16 font-normal normal-case text-red hover:border-0 hover:bg-red hover:text-primary dark:border-primary dark:bg-dark dark:text-secondary40 dark:hover:bg-secondary40 dark:hover:text-dark lg:text-18;
+    @apply flex h-12 w-52 rounded-full border-2 border-red bg-primary items-center justify-center text-16 font-normal normal-case text-red hover:border-0 hover:bg-red hover:text-primary dark:border-primary dark:bg-dark dark:text-secondary40 dark:hover:bg-secondary40 dark:hover:text-dark lg:text-18;
   }
 }
