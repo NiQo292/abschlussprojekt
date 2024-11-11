@@ -8,19 +8,23 @@
   box-sizing: border-box;
 }
 
-.screen-max-width {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  position: relative;
-  max-width: 1120px;
-}
-
 @layer utilities {
   .btn__filled {
-    @apply flex hover:bg-darkred rounded-full border-0 bg-red items-center justify-center text-16 font-normal normal-case text-primary dark:bg-primary dark:text-secondary lg:text-18 h-12 w-52 dark:hover:bg-secondary20;
+    @apply flex hover:bg-hover rounded-full border-0 bg-red items-center justify-center text-16 font-normal normal-case text-primary dark:bg-primary dark:text-secondary lg:text-18 h-12 w-52 dark:hover:bg-secondary20;
   }
 
   .btn__outlined {
-    @apply flex h-12 w-52 rounded-full border-2 border-red bg-primary items-center justify-center text-16 font-normal normal-case text-red hover:border-0 hover:bg-red hover:text-primary dark:border-primary dark:bg-dark dark:text-secondary40 dark:hover:bg-secondary40 dark:hover:text-dark lg:text-18;
+    @apply flex h-12 w-52 rounded-full border-2 border-red bg-primary items-center justify-center text-16 font-normal normal-case text-red hover:border-0 hover:bg-red hover:text-primary dark:border-primary dark:bg-dark dark:text-secondary40 dark:hover:bg-hover dark:hover:text-dark lg:text-18;
+  }
+
+  .input__field {
+    @apply block w-full rounded border-b border-secondary bg-primary p-2 text-16 focus:text-dark2 focus:outline-none dark:border-primary dark:bg-dark dark:text-secondary40 dark:focus:text-secondary40 lg:text-18;
+  }
+
+  .input__textarea {
+    @apply block h-24 w-full rounded border-b border-secondary bg-primary p-2 text-16 focus:text-dark2 focus:outline-none dark:border-primary dark:bg-dark dark:text-secondary40 dark:focus:text-secondary40 lg:text-18;
+  }
+  .input__checkbox {
+    @apply flex w-[60%] items-center gap-4 text-16 text-dark2 dark:text-secondary40;
   }
 }
