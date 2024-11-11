@@ -10,6 +10,10 @@ import Naehen from "@/public/Services/Overview/naehen.svg";
 import Planen from "@/public/Services/Overview/planung.svg";
 import Streichen from "@/public/Services/Overview/streichen.svg";
 import Treppen from "@/public/Services/Overview/treppen.svg";
+import Farben from "@/public/Products/image1.jpg";
+import Gardinen from "@/public/Products/image2.jpg";
+import Badmoebel from "@/public/Products/image3.jpg";
+import Textilien from "@/public/Products/image4.jpg";
 
 export type SiteConfig = typeof siteConfig;
 
@@ -132,6 +136,24 @@ export const siteConfig = {
       title: "Treppenrenovierung",
       description:
         "Porem ipsum dolor sit amet, con sectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+    },
+  ],
+  products: [
+    {
+      src: Farben,
+      title: "Farben, Böden & Tapeten",
+    },
+    {
+      src: Gardinen,
+      title: "Gardinen & Sonnenschutz",
+    },
+    {
+      src: Badmoebel,
+      title: "Badmöbel & Amaturen",
+    },
+    {
+      src: Textilien,
+      title: "Textilien & Wohnaccessoires",
     },
   ],
 };
