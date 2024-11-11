@@ -8,7 +8,9 @@ import ServicesOverview from "./ServicesOverview";
 const Services = () => {
   return (
     <section className="">
+      {/* siteConfig Array mappen, um alle Elemente in dem services Array zu rendern */}
       {siteConfig.services.map((item, index) =>
+        // Prüfen, ob das Array an der Stelle index gerade ist, um zu entscheiden, ob das Element TextBildLink oder TextBildLinkReversed sein soll.
         index % 2 === 0 ? (
           <TextBildLink
             key={item.step}

@@ -11,6 +11,7 @@ const ServicesOverview = () => {
           unsere <span className="font-bold">Services.</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3">
+          {/* siteConfig Array mappen, um alle Elemente in dem servicesOverview Array zu rendern */}
           {siteConfig.servicesOverview.map((item, index) => (
             <div
               key={index}

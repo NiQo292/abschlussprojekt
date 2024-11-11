@@ -1,4 +1,5 @@
 "use client";
+// Imports
 import React, { useCallback } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
@@ -28,11 +29,13 @@ const Carousel = ({ options }: PropType) => {
 
   return (
     <section>
+      {/* Carousel Komponente */}
       <div
         ref={emblaRef}
         className="overflow-hidden max-h-screen lg:mt-[-100px] z-1 w-full lg:h-screen h-[500px]"
       >
         <div className="flex relative w-full h-full">
+          {/* Array in der siteConfig Datei mappen, um die einzelnen Carousel Elemente zu bekommen */}
           {siteConfig.carousel.map((item) => (
             <div key={item.alt} className="grow-0 shrink-0 basis-full">
               <div className="w-full h-full bg-black">
@@ -42,6 +45,7 @@ const Carousel = ({ options }: PropType) => {
                   src={item.src}
                 />
               </div>
+              {/* CarouselCaption Komponente rendern, um die Schrift in dem Carousel anzuzeigen */}
               <CarouselCaption
                 text={item.caption}
                 title={item.title}
