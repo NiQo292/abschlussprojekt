@@ -24,6 +24,7 @@
   .input__textarea {
     @apply block h-24 w-full rounded border-b border-secondary bg-primary p-2 text-16 focus:text-dark2 focus:outline-none dark:border-primary dark:bg-dark dark:text-secondary40 dark:focus:text-secondary40 lg:text-18;
   }
+
   .input__checkbox {
     @apply flex w-[60%] items-center gap-4 text-16 text-dark2 dark:text-secondary40;
   }
