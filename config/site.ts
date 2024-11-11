@@ -14,6 +14,12 @@ import Farben from "@/public/Products/image1.jpg";
 import Gardinen from "@/public/Products/image2.jpg";
 import Badmoebel from "@/public/Products/image3.jpg";
 import Textilien from "@/public/Products/image4.jpg";
+import Placeholder from "@/public/Products/image5.png";
+import Inspiration1 from "@/public/Inspiration/inspiration1.jpg";
+import Inspiration2 from "@/public/Inspiration/inspiration2.jpg";
+import Inspiration3 from "@/public/Inspiration/inspiration3.jpg";
+import Inspiration4 from "@/public/Inspiration/inspiration4.jpg";
+import Inspiration5 from "@/public/Inspiration/inspiration5.jpg";
 
 export type SiteConfig = typeof siteConfig;
 
@@ -154,6 +160,32 @@ export const siteConfig = {
     {
       src: Textilien,
       title: "Textilien & Wohnaccessoires",
+    },
+    {
+      src: Placeholder,
+      title: "Viele weitere Produkte für Ihr Zuhause.",
+    },
+  ],
+  inspiration: [
+    {
+      src: Inspiration1,
+      title: "Inspiration 1",
+    },
+    {
+      src: Inspiration2,
+      title: "Inspiration 2",
+    },
+    {
+      src: Inspiration3,
+      title: "Inspiration 3",
+    },
+    {
+      src: Inspiration4,
+      title: "Inspiration 4",
+    },
+    {
+      src: Inspiration5,
+      title: "Inspiration 5",
     },
   ],
 };
