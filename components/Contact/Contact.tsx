@@ -42,6 +42,7 @@ const Contact = () => {
         </div>
         <div>
           <textarea
+            required
             className="autoexpand input__textarea"
             id="message"
             placeholder="Ihre Nachricht"
