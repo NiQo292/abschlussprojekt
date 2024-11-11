@@ -45,3 +45,36 @@ export const SunFilledIcon = ({
     </g>
   </svg>
 );
+
+export const ArrowUpIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: IconSvgProps) => (
+  <svg
+    fill="none"
+    height={size || height}
+    viewBox="0 0 45 45"
+    width={size || width}
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <rect
+      height="43.5"
+      rx="21.75"
+      stroke="#F42434"
+      strokeWidth="1.5"
+      transform="matrix(0 -1 -1 0 43.5 43.5)"
+      width="43.5"
+      x="-0.75"
+      y="-0.75"
+    />
+    <path
+      clipRule="evenodd"
+      d="M22.0019 11.6269L22.5001 11.184L22.9984 11.6269L31.4359 19.1269L30.4394 20.2481L23.0626 13.6909L23.0626 32.8125H21.5626L21.5626 14.0243L14.5609 20.2481L13.5644 19.1269L22.0019 11.6269Z"
+      fill="#F42434"
+      fillRule="evenodd"
+    />
+  </svg>
+);
